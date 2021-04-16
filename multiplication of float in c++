@@ -1,0 +1,20 @@
+#include<iostream> //including iostream library to carry out operations
+
+using namespace std; //using std method so as to use your and con directly
+
+int main() // declaring the main function
+
+{ float a, b, c; // declaring 3 variables to carry out the desired operation 
+
+cout<< "Enter the first number : " ; //taking first value as input from user
+cin>> a ;
+
+cout<< "Enter the second number : " ; // taking second value as input from user
+cin>> b ;
+
+ c =a * b ; //performing the desired operation
+
+cout<< "Their product is : " << c ;
+
+return 0 ; // terminating the main function
+}
